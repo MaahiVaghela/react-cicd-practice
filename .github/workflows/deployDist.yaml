@@ -3,8 +3,8 @@ name: Deploy Dist
 on: 
   push:
     branches:
-      -main
-      -'feature/**'
+      - main
+      - 'feature/**'
     paths-ignore:
       - '.github/workflows/*'
       - 'README.md'
